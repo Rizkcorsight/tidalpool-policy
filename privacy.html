@@ -28,11 +28,11 @@
 </div>
 <!-- policy-translations-end -->
 <h1>TidalPool — Privacy Policy</h1>
-<p class="muted">Last updated: June 27, 2026</p>
+<p class="muted">Last updated: July 21, 2026</p>
 <!-- store-audit-2026-06-27-start -->
 <section class="store-audit-note" style="margin:28px 0;padding:14px 16px;border:1px solid rgba(128,128,128,.24);border-radius:10px;background:rgba(128,128,128,.06);">
 <h2>Store Listing Alignment</h2>
-<p><strong>Checked June 27, 2026.</strong> This page was compared with the public public store listings where available. Where a store privacy or data-safety label was visible, it said the developer does not collect user data.</p>
+<p><strong>Checked July 21, 2026.</strong> This page was compared with the public store listings where available. Where a store privacy or data-safety label was visible, it said the developer does not collect user data.</p>
 <p><strong>Accurate app behavior:</strong> Journal entries, photos, favorites, selected stations, settings, and optional location use stay local. Tide predictions are fetched directly from NOAA or Canadian Hydrographic Service providers; store systems handle purchase, restore, refund, receipt, or price display where applicable. No accounts, ads, analytics, tracking, or developer backend are used.</p>
 </section>
 <!-- store-audit-2026-06-27-end -->
@@ -43,19 +43,23 @@ no tracking, and no third-party SDKs. There is no backend server; the bundled ti
 species data and anything you save stay on your device.</p>
 
 <h2>Data stored on your device</h2>
-<p>Your journal entries (sightings, notes, and any photos you add), saved favorites, and settings
-are stored only on your device. They are never transmitted to us or anyone else. Deleting the app
-removes them. When you share a journal photo, its embedded GPS location is stripped before sharing.</p>
+<p>Your journal entries (sightings, notes, any photos you add, and—on iOS—an optional on-device
+coordinate captured when you save), favorites, and settings are stored on your device. TidalPool
+does not send them to the developer. When you share a journal entry, the saved coordinate is not
+included; journal photos are re-encoded without embedded GPS metadata before storage and sharing.</p>
 
 <h2>Location</h2>
-<p>If you allow it, TidalPool uses your location only on your device — to find the nearest tide
-station and the species relevant to your area. Your location is never stored or uploaded.</p>
+<p>If you allow it, TidalPool uses your current location on your device to find nearby tide stations.
+On iOS, the current coordinate may also be saved locally as part of a journal entry; Android journal
+entries save the selected tide station rather than a raw device coordinate. TidalPool does not upload
+your device location.</p>
 
 <h2>Internet</h2>
-<p>The app works offline from bundled data. When you are online it fetches tide predictions directly
-from public government services — NOAA CO-OPS (United States) and Fisheries and Oceans Canada / the
-Canadian Hydrographic Service (Canada). No personal identifiers are sent. Tide predictions are for
-reference only and are not for navigation.</p>
+<p>The bundled species guide and saved or cached content work offline. Fresh tide predictions require
+an internet request to NOAA CO-OPS (United States) or Fisheries and Oceans Canada / the Canadian
+Hydrographic Service (Canada), using a public station ID and date range—not your device coordinates
+or personal identifiers. Predictions are for general planning only, not navigation or safety-critical
+decisions.</p>
 
 <h2>Purchases</h2>
 <p>TidalPool starts with a 3-day full-access trial and then uses a one-time unlock for continued access where distributed through an app store. Starting the trial happens locally on your device. Apple App Store or Google Play handles purchase, restore, receipt verification, refunds, and localized price display. TidalPool receives only the entitlement status needed to unlock the app; we do not receive your payment card, billing address, Apple ID, Google account details, or store receipt contents.</p>
